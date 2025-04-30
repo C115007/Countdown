@@ -1,0 +1,60 @@
+@font-face {
+    font-family: Shag-Lounge;
+    src: url(Shag-Lounge.otf);
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Shag-Lounge";
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: palegoldenrod;
+    color: #00000088;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    list-style-type: none;
+    font-size: 1.75rem;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+li span {
+    display: block;
+    font-size: 6rem;
+    color: #ff004c88;
+}
+
+li.separator {
+    margin: 0;
+    font-size: 6rem;
+    line-height: 1;
+    color: #ff004c88;
+}
+
+.social_links {
+    position: fixed;
+    bottom: 0;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.social_links a {
+    color: inherit;
+    font-size: 2rem;
+}
